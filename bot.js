@@ -271,7 +271,7 @@ client.on('message', function(message) {
     }
 });
 client.on("message", message => {
- if (message.content === `${prefix}`) {
+ if (message.content === `${prefix}help`) {
   const embed = new Discord.RichEmbed() //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
       .setColor("#000000")//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
       .setDescription(`
